@@ -120,16 +120,19 @@ section#projects {
 }
 
 .project-buttons button {
-  font-size: 1.1rem;
-  font-weight: bold;
+  font-family: 'Raleway Dots', cursive;
+  font-size: 1.3rem;
   padding: 5px 14px;
   margin: 2vh 1vw;
-  border-radius: 5px;
+  border-radius: 2px;
+  border: none;
+  background-color: #333;
+  box-shadow: 2px 2px 10px rgba(51, 51, 51, 0.2);
 }
 
 .project-buttons a {
   text-decoration: none;
-  color: #333;
+  color: #fff;
 }
 
 .project-buttons a:hover {

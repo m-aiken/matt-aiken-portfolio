@@ -20,12 +20,6 @@ const AboutPage = () => {
         believe technology can provide a powerful supplement to maximize our
         results.
       </p>
-      {/* <!-- <p>
-          My journey into web development started in Autumn of 2018. Frustrated
-          with a lack of personal growth in previous jobs, I needed something
-          that would provide a constant challenge. Programming has met that
-          need, giving me a daily opportunity for progress.
-        </p> --> */}
     </section>
   );
 };
