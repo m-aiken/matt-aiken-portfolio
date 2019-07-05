@@ -35,7 +35,6 @@ class ProjectsPage extends Component {
   render() {
     return (
       <section id="projects">
-        {/* <div class="projects-overlay"> */}
         <ProjectTabs
           changeProject={this.changeProject}
           border={this.state.classNames}
@@ -46,7 +45,6 @@ class ProjectsPage extends Component {
           <AnimalGameProject show={this.state.classNames[2].selected} />
           <WhackAMattProject show={this.state.classNames[3].selected} />
         </div>
-        {/* </div> */}
       </section>
     );
   }

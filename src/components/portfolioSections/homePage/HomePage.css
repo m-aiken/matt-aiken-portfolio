@@ -7,11 +7,15 @@ section#home {
   grid-template-columns: repeat(3, 1fr);
   background: rgba(255, 255, 255, 0.5);
   color: rgba(0, 0, 0, 0.7);
-  padding: 20px 25px 0 25px;
+  padding: 20px 15px 0 15px;
   align-items: center;
   justify-content: center;
   border-radius: 5px;
   margin-top: 20px;
+}
+
+.home-link {
+  margin: 0 20px;
 }
 
 .home-links a {

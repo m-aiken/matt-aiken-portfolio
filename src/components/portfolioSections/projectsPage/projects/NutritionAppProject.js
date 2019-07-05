@@ -56,7 +56,7 @@ class NutritionAppProject extends Component {
             The Nutrition Checker app helps you to easily retrieve the
             nutritional information associated with your favourite recipes.
             Simply enter the ingredients with quantity or weight and the values
-            will be calculated. A RESTful application that makes use of the
+            will be calculated. A RESTful application that makes use of the{' '}
             <a href="https://developer.edamam.com/" target="_blank">
               Edamam API
             </a>
