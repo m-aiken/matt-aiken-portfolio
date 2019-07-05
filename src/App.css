@@ -1,33 +1,68 @@
-.App {
-  text-align: center;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+html {
+  box-sizing: border-box;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #333;
+  line-height: 1.6;
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+body h1 {
+  font-family: 'Raleway Dots', cursive;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.tablet-show {
+  display: none;
+}
+
+.mobile-show {
+  display: none;
+}
+
+/* Tablets */
+@media (max-width: 800px) {
+  /* Utilities */
+  .tablet-hide {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+
+  .tablet-show {
+    display: block;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 450px) {
+  /* Utilities */
+  .mobile-show {
+    display: block;
+  }
+
+  .mobile-hide {
+    display: none;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 350px) {
+  /* Utilities */
+  .small-mobile-hide {
+    display: none;
   }
 }

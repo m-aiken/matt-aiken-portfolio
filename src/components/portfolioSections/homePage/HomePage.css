@@ -1,0 +1,76 @@
+section#home {
+  background-color: rgb(255, 230, 200);
+}
+
+.home-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.7);
+  padding: 20px 25px 0 25px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.home-links a {
+  text-decoration: none;
+}
+
+.home-links i {
+  font-size: 3rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.home-links i:hover {
+  color: rgba(133, 0, 0, 0.7);
+}
+
+.home-links p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.home-links p:hover {
+  color: rgba(133, 0, 0, 0.7);
+}
+
+/* Tablets */
+@media (max-width: 800px) {
+  .home-links {
+    padding: 20px 25px 0 25px;
+    margin-top: 30px;
+  }
+
+  .home-links i {
+    font-size: 3.5rem;
+  }
+
+  .home-links p {
+    font-size: 1.2rem;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 400px) {
+  .home-links {
+    padding: 20px 20px 0 20px;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 350px) {
+  section#home h1 {
+    font-size: 2.5rem;
+  }
+
+  section#home p {
+    font-size: 1.2rem;
+  }
+
+  .home-links {
+    padding: 20px 0 0 0;
+  }
+}

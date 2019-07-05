@@ -1,0 +1,170 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  width: 100%;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-nav li {
+  margin: 0 2rem;
+}
+
+.main-nav li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.main-nav li a:hover {
+  color: skyblue;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-links li {
+  margin: 0 2rem;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.nav-links li a:hover {
+  color: rgba(240, 133, 133, 0.9);
+}
+
+.hamburger-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hamburger {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+
+.hamburger:hover {
+  color: skyblue;
+}
+
+.side-nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.side-nav a {
+  padding: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  display: block;
+  font-size: 1.3rem;
+}
+
+.side-nav a:hover {
+  color: skyblue;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  font-size: 2rem !important;
+  color: #fff;
+}
+
+.close-button:hover {
+  color: rgba(240, 133, 133, 0.9);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  scroll-snap-align: center;
+}
+
+section h1 {
+  font-size: 3.5rem;
+}
+
+section p {
+  font-size: 1.4rem;
+  padding: 1rem;
+}
+
+/* Tablets */
+@media (max-width: 800px) {
+  .main-nav li a {
+    font-size: 1.2rem;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 450px) {
+  .main-nav li {
+    margin: 0 1.2rem;
+  }
+
+  .main-nav li a {
+    font-size: 0.7rem;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 400px) {
+  .main-nav li {
+    margin: 0 1.2rem;
+  }
+
+  .main-nav li a {
+    font-size: 0.7rem;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 350px) {
+  .navbar {
+    height: 50px;
+  }
+
+  .main-nav li {
+    margin: 0 1.2rem;
+  }
+
+  .main-nav li a {
+    font-size: 0.7rem;
+  }
+}

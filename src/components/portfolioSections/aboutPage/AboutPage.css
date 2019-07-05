@@ -1,0 +1,50 @@
+section#about {
+  background-color: rgb(255, 255, 215);
+}
+
+section#about p {
+  width: 80%;
+  margin-top: 20px;
+}
+
+/* Tablets */
+@media (max-width: 800px) {
+  section#about h1 {
+    font-size: 4rem;
+    margin-top: 30px;
+  }
+
+  section#about p {
+    font-size: 1.7rem;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 450px) {
+  section#about h1 {
+    font-size: 2rem;
+    margin-top: 10px;
+  }
+
+  section#about p {
+    font-size: 1rem;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 400px) {
+  section#about h1 {
+    margin-top: 70px;
+  }
+
+  section#about p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 350px) {
+  section#about p {
+    font-size: 0.8rem;
+  }
+}
