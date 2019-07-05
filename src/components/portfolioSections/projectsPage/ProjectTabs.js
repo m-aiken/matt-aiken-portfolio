@@ -5,48 +5,60 @@ const ProjectTabs = props => {
   return (
     <div className="project-tabs">
       <div
-        id="project-1"
+        id="0"
         className={`project-tab ${
           props.border[0].selected ? 'tab-border' : ''
         }`}
         onClick={props.changeProject}
       >
-        <img src="./img/drum_machine_logo.png" alt="drum machine logo" id="0" />
+        <h1 id="0" className="mobile-hide">
+          One
+        </h1>
+        <h1 id="0" className="mobile-show">
+          1
+        </h1>
       </div>
       <div
-        id="project-2"
+        id="1"
         className={`project-tab ${
           props.border[1].selected ? 'tab-border' : ''
         }`}
         onClick={props.changeProject}
       >
-        <img
-          src="./img/nutritionchecker_logo.png"
-          alt="nutrition checker logo"
-          id="1"
-        />
+        <h1 id="1" className="mobile-hide">
+          Two
+        </h1>
+        <h1 id="1" className="mobile-show">
+          2
+        </h1>
       </div>
       <div
-        id="project-3"
+        id="2"
         className={`project-tab ${
           props.border[2].selected ? 'tab-border' : ''
         }`}
         onClick={props.changeProject}
       >
-        <img
-          src="./img/spell_that_animal_logo.png"
-          alt="spell that animal logo"
-          id="2"
-        />
+        <h1 id="2" className="mobile-hide">
+          Three
+        </h1>
+        <h1 id="2" className="mobile-show">
+          3
+        </h1>
       </div>
       <div
-        id="project-4"
+        id="3"
         className={`project-tab ${
           props.border[3].selected ? 'tab-border' : ''
         }`}
         onClick={props.changeProject}
       >
-        <img src="./img/whackamatt_logo.png" alt="whack a matt logo" id="3" />
+        <h1 id="3" className="mobile-hide">
+          Four
+        </h1>
+        <h1 id="3" className="mobile-show">
+          4
+        </h1>
       </div>
     </div>
   );
