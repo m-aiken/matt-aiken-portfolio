@@ -52,7 +52,7 @@ class DrumMachineProject extends Component {
           <p>
             A 10 sound Drum Machine with 16-step sequencer. Pitch, reverb and
             volume controls for each sound and global controls for master
-            voulme, BPM adjustment and sequencer start/stop. Made with React
+            volume, BPM adjustment and sequencer start/stop. Made with React
             utilising the{' '}
             <a href="https://tonejs.github.io/" target="_blank">
               Tone.js
