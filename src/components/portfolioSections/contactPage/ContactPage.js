@@ -6,8 +6,8 @@ import Footer from '../../footer/Footer';
 const ContactPage = () => {
   return (
     <section id="contact">
-      <h1>Contact</h1>
-      <p>
+      <h1 className="contact-header">Contact</h1>
+      <p className="contect-desc">
         Please fill out the form below with any queries. I'd love to hear from
         you.
       </p>
