@@ -58,10 +58,6 @@
 }
 
 .side-nav {
-  display: none;
-}
-
-/* .side-nav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -72,9 +68,9 @@
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
-} */
+}
 
-/* .side-nav a {
+.side-nav a {
   padding: 30px;
   text-decoration: none;
   text-transform: uppercase;
@@ -85,19 +81,19 @@
 
 .side-nav a:hover {
   color: skyblue;
-} */
+}
 
-/* .close-button {
+.close-button {
   position: absolute;
   top: 10px;
   right: 30px;
   font-size: 2rem !important;
   color: #fff;
-} */
+}
 
 .close-button:hover {
   /* color: rgba(240, 133, 133, 0.9); */
-  /* color: #fa2d37; */
+  color: #fa2d37;
 }
 
 @media (min-width: 700px) {
