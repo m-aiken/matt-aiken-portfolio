@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const MobileTechList = props => {
   return (
-    <p className="mobile-tech-list tablet-show">
+    <p className="mobile-tech-list">
       <strong>Tech: </strong>
       {props.mobileTechList}
     </p>

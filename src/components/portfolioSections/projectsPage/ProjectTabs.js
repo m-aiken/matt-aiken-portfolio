@@ -11,10 +11,10 @@ const ProjectTabs = props => {
         }`}
         onClick={props.changeProject}
       >
-        <h1 id="0" className="mobile-hide">
+        <h1 id="0" className="medium-viewport-plus">
           One
         </h1>
-        <h1 id="0" className="mobile-show">
+        <h1 id="0" className="small-viewport">
           1
         </h1>
       </div>
@@ -25,10 +25,10 @@ const ProjectTabs = props => {
         }`}
         onClick={props.changeProject}
       >
-        <h1 id="1" className="mobile-hide">
+        <h1 id="1" className="medium-viewport-plus">
           Two
         </h1>
-        <h1 id="1" className="mobile-show">
+        <h1 id="1" className="small-viewport">
           2
         </h1>
       </div>
@@ -39,10 +39,10 @@ const ProjectTabs = props => {
         }`}
         onClick={props.changeProject}
       >
-        <h1 id="2" className="mobile-hide">
+        <h1 id="2" className="medium-viewport-plus">
           Three
         </h1>
-        <h1 id="2" className="mobile-show">
+        <h1 id="2" className="small-viewport">
           3
         </h1>
       </div>
@@ -53,10 +53,10 @@ const ProjectTabs = props => {
         }`}
         onClick={props.changeProject}
       >
-        <h1 id="3" className="mobile-hide">
+        <h1 id="3" className="medium-viewport-plus">
           Four
         </h1>
-        <h1 id="3" className="mobile-show">
+        <h1 id="3" className="small-viewport">
           4
         </h1>
       </div>

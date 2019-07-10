@@ -28,42 +28,30 @@ body h1 {
   background-color: rgb(255, 230, 200);
 }
 
-.tablet-show {
-  display: none;
+.small-viewport {
+  display: block;
 }
 
-.mobile-show {
-  display: none;
+.medium-viewport-plus {
+  display: none !important;
 }
 
-/* Tablets */
-@media (max-width: 800px) {
-  /* Utilities */
-  .tablet-hide {
+.large-viewport {
+  display: none !important;
+}
+
+@media (min-width: 1020px) {
+  .small-viewport {
     display: none;
   }
 
-  .tablet-show {
-    display: block;
+  .medium-viewport-plus {
+    display: block !important;
   }
 }
 
-/* Mobile phones */
-@media (max-width: 450px) {
-  /* Utilities */
-  .mobile-show {
-    display: block;
-  }
-
-  .mobile-hide {
-    display: none;
-  }
-}
-
-/* Mobile phones */
-@media (max-width: 350px) {
-  /* Utilities */
-  .small-mobile-hide {
-    display: none;
+@media (min-width: 1300px) {
+  .large-viewport {
+    display: block !important;
   }
 }

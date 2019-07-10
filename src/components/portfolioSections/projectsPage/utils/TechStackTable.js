@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const TechStackTable = props => {
   return (
-    <table className="tech-stack-table tablet-hide">
+    <table className="tech-stack-table large-viewport">
       <thead>
         <tr>
           <th>Tech Stack / Skills</th>
