@@ -6,12 +6,12 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="hamburger-container">
-        <span className="open-slide mobile-show">
+        <span className="open-slide">
           <button className="hamburger">&#9776;</button>
         </span>
       </div>
-      <div className="mobile-show" />
-      <ul className="main-nav mobile-hide">
+      <div className="navbar-dummy-div" />
+      <ul className="main-nav">
         <li>
           <a href="#home">Home</a>
         </li>
