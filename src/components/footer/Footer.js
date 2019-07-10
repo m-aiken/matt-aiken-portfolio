@@ -4,7 +4,7 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer class="footer">
+    <footer className="footer">
       <p>
         <i className="far fa-copyright" /> 2019 Matt Aiken
       </p>
