@@ -42,6 +42,7 @@ section#contact {
   border-radius: 5px;
   background: rgba(233, 76, 76, 0.9);
   color: #fff;
+  outline: none;
 }
 
 .submit-button button:hover {

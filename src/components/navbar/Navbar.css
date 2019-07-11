@@ -22,6 +22,9 @@
   color: #333;
   text-decoration: none;
   font-size: 1.8rem;
+  border: none;
+  background-color: transparent;
+  outline: none;
 }
 
 .hamburger:hover {
@@ -89,6 +92,9 @@
   right: 30px;
   font-size: 2rem !important;
   color: #fff;
+  border: none;
+  background-color: transparent;
+  outline: none;
 }
 
 .close-button:hover {
