@@ -57,7 +57,11 @@ class NutritionAppProject extends Component {
             nutritional information associated with your favourite recipes.
             Simply enter the ingredients with quantity or weight and the values
             will be calculated. A RESTful application that makes use of the{' '}
-            <a href="https://developer.edamam.com/" target="_blank">
+            <a
+              href="https://developer.edamam.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Edamam API
             </a>
             . Built with React, styled with Bootstrap.

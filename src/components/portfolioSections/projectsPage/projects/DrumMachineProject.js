@@ -13,15 +13,14 @@ class DrumMachineProject extends Component {
       gitHubLink: 'https://github.com/m-aiken/react-drum-machine-v1',
       techStack: [
         'React with Context API',
-        'JavaScript',
         'Tone.js',
-        'Bootstrap 4',
+        'JavaScript',
         'HTML5',
         'CSS3',
-        'Tested with Jest & Enzyme'
+        'Bootstrap (Reactstrap)'
       ],
       mobileTechList:
-        'React with Context API, JavaScript, Tone.js, Bootstrap 4, HTML5, CSS3, Jest, Enzyme'
+        'React with Context API, Tone.js, JavaScript, HTML5, CSS3, Bootstrap (Reactstrap)'
     };
   }
 
@@ -52,9 +51,13 @@ class DrumMachineProject extends Component {
           <p>
             A 10 sound Drum Machine with 16-step sequencer. Pitch, reverb and
             volume controls for each sound and global controls for master
-            volume, BPM adjustment and sequencer start/stop. Made with React
+            volume, BPM adjustment and sequencer start/stop. Built with React
             utilising the{' '}
-            <a href="https://tonejs.github.io/" target="_blank">
+            <a
+              href="https://tonejs.github.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Tone.js
             </a>{' '}
             library, a library centered around audio/synthesizer creation.

@@ -16,13 +16,21 @@ const HomePage = () => {
           </a>
         </div>
         <div>
-          <a href="https://github.com/m-aiken" target="_blank">
+          <a
+            href="https://github.com/m-aiken"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fab fa-github" />
             GitHub
           </a>
         </div>
         <div>
-          <a href="documents/draft_cv.pdf" target="_blank">
+          <a
+            href="documents/draft_cv.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="far fa-file" />
             CV
           </a>

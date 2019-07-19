@@ -46,12 +46,20 @@ class Navbar extends Component {
         </ul>
         <ul className="nav-links">
           <li>
-            <a href="https://github.com/m-aiken" target="_blank">
+            <a
+              href="https://github.com/m-aiken"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fab fa-github" />
             </a>
           </li>
           <li>
-            <a href="documents/draft_cv.pdf" target="_blank">
+            <a
+              href="documents/draft_cv.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               CV
             </a>
           </li>

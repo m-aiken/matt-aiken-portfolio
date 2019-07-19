@@ -22,8 +22,6 @@ class ProjectsPage extends Component {
 
   changeProject = e => {
     const { id } = e.target;
-    console.log(id);
-
     this.setState({
       classNames: this.state.classNames.map((tab, idx) => {
         tab.selected = idx === parseInt(id) ? true : false;
@@ -39,7 +37,7 @@ class ProjectsPage extends Component {
           changeProject={this.changeProject}
           border={this.state.classNames}
         />
-        <div class="project-container">
+        <div className="project-container">
           <DrumMachineProject show={this.state.classNames[0].selected} />
           <NutritionAppProject show={this.state.classNames[1].selected} />
           <AnimalGameProject show={this.state.classNames[2].selected} />

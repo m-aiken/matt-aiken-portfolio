@@ -10,9 +10,9 @@ const TechStackTable = props => {
         </tr>
       </thead>
       <tbody>
-        {props.techStack.map(item => {
+        {props.techStack.map((item, idx) => {
           return (
-            <tr>
+            <tr key={idx}>
               <td>{item}</td>
             </tr>
           );
