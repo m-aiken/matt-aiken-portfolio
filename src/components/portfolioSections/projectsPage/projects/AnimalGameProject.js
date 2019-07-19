@@ -35,8 +35,8 @@ class AnimalGameProject extends Component {
         <div className="project-top">
           <div className="project-image">
             <img
-              src="./img/spell_that_animal.png"
-              alt="spell that animal screenchot"
+              src="./img/spell_that_animal_screenshot.png"
+              alt="spell that animal screenshot"
             />
           </div>
           <div className="table_and_links">

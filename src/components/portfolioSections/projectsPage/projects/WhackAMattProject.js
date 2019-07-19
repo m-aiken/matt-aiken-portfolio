@@ -35,7 +35,7 @@ class WhackAMattProject extends Component {
         <div className="project-top">
           <div className="project-image">
             <img
-              src="./img/whackamattscreenshot.png"
+              src="./img/whack_a_matt_screenshot.png"
               alt="whack a matt game screenshot"
             />
           </div>
@@ -49,12 +49,7 @@ class WhackAMattProject extends Component {
           </div>
         </div>
         <div className="project-description">
-          <p>
-            Whack-A-Matt game, adapted for React from Wes Bos JavaScript 30
-            project. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Voluptatibus dolore ab sed et id autem veniam! Enim minima
-            dignissimos totam.
-          </p>
+          <p>A simple 'Whack-A-Matt' game, built with React.</p>
         </div>
       </div>
     );

@@ -28,7 +28,7 @@ const ContactPage = () => {
             placeholder="Email address"
           />
         </div>
-        <label for="message">Message</label>
+        <label htmlFor="message">Message</label>
         <div>
           <textarea name="message" id="message" rows="10" />
         </div>
