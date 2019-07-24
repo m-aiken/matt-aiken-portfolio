@@ -1,22 +1,23 @@
 section#home h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 section#home p {
-  font-size: 1.3rem;
+  font-size: 1rem;
+  padding: 8px 0 0 0;
 }
 
 .home-links {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .home-links a {
   text-decoration: none;
   display: flex;
   flex-direction: column;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.7);
   margin: 0 15px;
@@ -28,45 +29,73 @@ section#home p {
 
 .home-links i {
   font-size: 3rem;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
-@media (min-width: 450px) {
+@media (min-height: 400px) {
   section#home h1 {
-    font-size: 3rem;
+    font-size: 2.4rem;
+  }
+
+  section#home p {
+    font-size: 1.1rem;
+    padding: 12px 0 0 0;
+  }
+
+  .home-links {
+    margin-top: 35px;
   }
 
   .home-links a {
+    font-size: 1.1rem;
+    margin: 0 20px;
+  }
+
+  .home-links i {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 700px) and (min-height: 500px) {
+  section#home h1 {
+    font-size: 2.8rem;
+  }
+
+  section#home p {
+    font-size: 1.2rem;
+    padding: 20px 0 0 0;
+  }
+
+  .home-links {
+    margin-top: 50px;
+  }
+
+  .home-links a {
+    font-size: 1.3rem;
     margin: 0 25px;
   }
-}
 
-@media (min-width: 550px) {
-  .home-links a {
-    margin: 0 35px;
+  .home-links i {
+    margin-bottom: 20px;
   }
 }
 
-@media (min-width: 700px) {
-  section#home h1 {
-    font-size: 3.3rem;
-  }
-
-  .home-links a {
-    margin: 0 40px;
-  }
-}
-
-@media (min-width: 1024px) {
+@media (min-width: 1000px) and (min-height: 900px) {
   section#home h1 {
     font-size: 3.5rem;
   }
 
   section#home p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    padding: 30px 0 0 0;
+  }
+
+  .home-links {
+    margin-top: 80px;
   }
 
   .home-links a {
-    margin: 0 45px;
+    font-size: 1.4rem;
+    margin: 0 35px;
   }
 }

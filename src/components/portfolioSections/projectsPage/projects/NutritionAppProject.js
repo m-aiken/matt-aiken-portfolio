@@ -9,7 +9,7 @@ class NutritionAppProject extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      projectDemoLink: 'http://checkyourmeals.com/',
+      projectDemoLink: 'https://checkyourmeals.com',
       gitHubLink: 'https://github.com/m-aiken/nutrition-checker',
       techStack: [
         'React',

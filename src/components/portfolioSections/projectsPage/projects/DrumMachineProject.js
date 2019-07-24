@@ -9,7 +9,7 @@ class DrumMachineProject extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      projectDemoLink: 'http://drummachine.live/',
+      projectDemoLink: 'https://drummachine.live',
       gitHubLink: 'https://github.com/m-aiken/react-drum-machine-v1',
       techStack: [
         'React with Context API',
