@@ -9,7 +9,7 @@ class AnimalGameProject extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      projectDemoLink: 'https://infallible-archimedes-e08545.netlify.com/',
+      projectDemoLink: 'https://spellthatanimal.com',
       gitHubLink: 'https://github.com/m-aiken/spell_that_animal',
       techStack: [
         'React',

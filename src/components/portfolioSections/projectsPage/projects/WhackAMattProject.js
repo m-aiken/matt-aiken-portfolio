@@ -9,7 +9,7 @@ class WhackAMattProject extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      projectDemoLink: 'https://www.google.com/',
+      projectDemoLink: 'https://whackamatt.com',
       gitHubLink: 'https://github.com/m-aiken/whack-a-matt',
       techStack: [
         'React',
