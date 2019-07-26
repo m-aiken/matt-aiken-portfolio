@@ -19,15 +19,9 @@ class Navbar extends Component {
     return (
       <nav className="navbar">
         <div className="hamburger-container">
-          <span className="open-slide">
-            <button
-              className="hamburger"
-              id="open"
-              onClick={this.handleSideMenu}
-            >
-              &#9776;
-            </button>
-          </span>
+          <button className="hamburger" id="open" onClick={this.handleSideMenu}>
+            &#9776;
+          </button>
         </div>
         <div className="navbar-dummy-div" />
         <ul className="main-nav">
@@ -67,7 +61,7 @@ class Navbar extends Component {
         {/* Side menu for mobile */}
         <div
           className="side-nav"
-          style={this.state.sideMenu ? { width: '220px' } : { width: '0' }}
+          style={this.state.sideMenu ? { width: '180px' } : { width: '0' }}
           id="side-menu"
         >
           <button
@@ -77,10 +71,18 @@ class Navbar extends Component {
           >
             &times;
           </button>
-          <a href="#home">Home</a>
-          <a href="#projects">Projects</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
+          <a href="#home" onClick={this.handleSideMenu}>
+            Home
+          </a>
+          <a href="#projects" onClick={this.handleSideMenu}>
+            Projects
+          </a>
+          <a href="#about" onClick={this.handleSideMenu}>
+            About
+          </a>
+          <a href="#contact" onClick={this.handleSideMenu}>
+            Contact
+          </a>
         </div>
       </nav>
     );
