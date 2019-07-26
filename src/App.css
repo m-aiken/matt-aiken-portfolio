@@ -47,31 +47,3 @@ section p {
   font-size: 1.4rem;
   padding: 1rem;
 }
-
-.small-viewport {
-  display: block;
-}
-
-.medium-viewport-plus {
-  display: none !important;
-}
-
-.large-viewport {
-  display: none !important;
-}
-
-@media (min-width: 1020px) {
-  .small-viewport {
-    display: none;
-  }
-
-  .medium-viewport-plus {
-    display: block !important;
-  }
-}
-
-@media (min-width: 1300px) {
-  .large-viewport {
-    display: block !important;
-  }
-}
