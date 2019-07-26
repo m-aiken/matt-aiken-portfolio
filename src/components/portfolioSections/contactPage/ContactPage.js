@@ -15,8 +15,7 @@ const ContactPage = () => {
         <div className="header-desc">
           <h1 className="contact-header">Contact</h1>
           <p className="contact-desc">
-            Please fill out the form with any queries. I'd love to hear from
-            you.
+            Please fill out the form with any queries.
           </p>
         </div>
         <div className="contact-inputs">
