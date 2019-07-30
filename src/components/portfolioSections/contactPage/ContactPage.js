@@ -13,12 +13,11 @@ const ContactPage = () => {
         data-netlify="true"
         data-netlify-recaptcha="true"
       >
-        <div className="header-desc">
-          <h1 className="contact-header">Contact</h1>
-          <p className="contact-desc">
-            Please fill out the form with any queries.
-          </p>
-        </div>
+        <input type="hidden" name="form-name" value="contact" />
+        <p className="contact-desc">
+          Please fill out the form with any queries, I'll reply as soon as
+          possible.
+        </p>
         <div className="contact-inputs">
           <div>
             <input type="text" name="name" id="name" placeholder="Name" />
@@ -38,13 +37,9 @@ const ContactPage = () => {
             <textarea name="message" id="message" rows="9" />
           </div>
         </div>
-        <div className="verification">
-          <div data-netlify-recaptcha="true" />
-        </div>
-        <div className="button-container">
-          <div className="submit-button">
-            <button type="submit">Submit</button>
-          </div>
+        <div data-netlify-recaptcha="true" />
+        <div className="submit-button">
+          <button type="submit">Submit</button>
         </div>
       </form>
       <Footer />
