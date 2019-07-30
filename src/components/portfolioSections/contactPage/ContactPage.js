@@ -11,12 +11,16 @@ const ContactPage = () => {
         name="contact"
         method="POST"
         data-netlify="true"
-        data-netlify-recaptcha="true"
+        netlify-honeypot="bot-field"
       >
+        <div className="hidden-honeypot">
+          <input name="bot-field" />
+        </div>
         <input type="hidden" name="form-name" value="contact" />
+        <h1 className="contact-header">Contact</h1>
         <p className="contact-desc">
-          Please fill out the form with any queries, I'll reply as soon as
-          possible.
+          Please fill out the form with any queries, I'll get back to you as
+          soon as possible.
         </p>
         <div className="contact-inputs">
           <div>
@@ -34,10 +38,9 @@ const ContactPage = () => {
         <div className="textbox">
           <label htmlFor="message">Message</label>
           <div>
-            <textarea name="message" id="message" rows="9" />
+            <textarea name="message" id="message" rows="7" />
           </div>
         </div>
-        <div data-netlify-recaptcha="true" />
         <div className="submit-button">
           <button type="submit">Submit</button>
         </div>
