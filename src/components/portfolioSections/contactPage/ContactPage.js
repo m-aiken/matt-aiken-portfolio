@@ -11,6 +11,7 @@ const ContactPage = () => {
         name="contact"
         method="POST"
         data-netlify="true"
+        data-netlify-recaptcha="true"
       >
         <div className="header-desc">
           <h1 className="contact-header">Contact</h1>
