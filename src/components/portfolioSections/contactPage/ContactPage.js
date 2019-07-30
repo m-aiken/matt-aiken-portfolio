@@ -37,8 +37,10 @@ const ContactPage = () => {
             <textarea name="message" id="message" rows="9" />
           </div>
         </div>
-        <div className="button-container">
+        <div className="verification">
           <div data-netlify-recaptcha="true" />
+        </div>
+        <div className="button-container">
           <div className="submit-button">
             <button type="submit">Submit</button>
           </div>
