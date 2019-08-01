@@ -50,7 +50,7 @@ class Navbar extends Component {
           </li>
           <li>
             <a
-              href="documents/draft_cv.pdf"
+              href="./docs/matthew_aiken_cv.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
