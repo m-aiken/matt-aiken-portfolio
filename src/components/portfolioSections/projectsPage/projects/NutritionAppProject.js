@@ -53,7 +53,7 @@ class NutritionAppProject extends Component {
         </div>
         <div className="project-description">
           <p>
-            The Nutrition Checker app helps you to easily retrieve the
+            The 'CheckYourMeals' app helps you to easily retrieve the
             nutritional information associated with your favourite recipes.
             Simply enter the ingredients with quantity or weight and the values
             will be calculated. A RESTful application that makes use of the{' '}
